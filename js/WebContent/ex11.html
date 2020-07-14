@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<!-- 
+<script type="text/javascript">
+
+		console.log("===기명함수===");
+		testA();
+		
+	//기명하무, 선언적 함수, 이름있는 함수
+	function testA(){
+		console.log("기명함수 실행");
+	}
+	
+	</script>\
+	기명함수로 실행하면 정의부분 보다 전에 사용하여도 정상실행
+	익명함수로 변수에 함수를 넣으면 정의된 후에 사용해야 한다.
+	 -->
+
+
+	<script type="text/javascript">
+	
+	console.log("===익명함수===");
+	
+	var val01 = function(){
+		console.log("익명함수 실행");
+	}
+	val01();
+	console.log(typeof val01);
+	
+	</script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<script type="text/javascript">
+
+
+/*
+function checkscope(){
+	var name = "local";
+	console.log(name);
+}
+var name = "global";
+
+console.log(name);
+checkscope();
+console.log(name);
+
+*/
+
+
+function checkscope(){
+	name = "local";
+	console.log(name);
+}
+var name = "global";
+console.log(name);
+checkscope();
+console.log(name);
+//함수속에서 var없이 선언된 후 name이 변하지 않는다. 즉, 함수 속에서 var없이 선언 되면 함수밖에서 var로 선언된 변수명과 일치할시 함수안에서 선언된
+// 변수명으로 나옴.
+</script>
+</body>
+</html>
